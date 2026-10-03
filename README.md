@@ -12,11 +12,12 @@ A browser console script for automating inventory counting in Lightspeed Retail.
 
 ## Usage
 
-1. Open the Lightspeed inventory count page.
-2. Open Chrome DevTools.
-3. Go to Console.
-4. Paste the contents of `lightspeed-inventory-auto-count.js`.
-5. Press Enter.
+1. Open the Lightspeed inventory count page - Start counting.
+2. Review the screen models repaired this week and physically check how many of each model are currently left in stock.
+3. Check for any negative stock quantities and record how many items have a negative quantity.
+4. These two steps above must be counted manually. Now we can use scripts to run automatically -- Open Chrome DevTools and go to the Console.
+6. Paste the contents of `lightspeed-inventory-auto-count.js`.
+7. Press Enter.
 
 To stop the script:
 
@@ -26,7 +27,7 @@ window.stopInventoryAuto = true;
 
 # Mismatch Auto Count
 
-This script is specifically designed to process inventory items marked as **mismatched**, where the counted quantity does not match the expected quantity.
+This script is specifically designed to process inventory items marked as **mismatched**, the counted quantity does not match the expected quantity, which may have occurred after an unexpected issue while running the previous automatic inventory count script.
 
 ## Features
 
