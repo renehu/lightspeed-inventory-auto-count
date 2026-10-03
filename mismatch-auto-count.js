@@ -1,5 +1,3 @@
-// Automatically processes inventory items in Lightspeed Retail where the counted quantity does not match the expected quantity. The script identifies mismatch rows, copies the expected quantity into the Quantity field, submits the count, and continues until all mismatched items are processed.
-
 (async () => {
   const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
