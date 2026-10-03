@@ -1,3 +1,13 @@
+/*
+ * Lightspeed Inventory Mismatch Auto Count
+ *
+ * This script is intended to reconcile mismatched items that may have
+ * occurred after an unexpected issue while running the previous
+ * automatic inventory count script.
+ *
+ * It only processes rows marked as mismatched.
+ */
+
 (async () => {
   const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
