@@ -40,7 +40,7 @@ This script is specifically designed to process inventory items marked as **mism
 
 ## Usage
 
-1. Open the relevant inventory count page in Lightspeed Retail.
+1. Stay on the count page in Lightspeed Retail.
 2. Open Chrome DevTools.
 3. Go to the **Console** tab.
 4. Paste the script into the console.
