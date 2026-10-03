@@ -29,6 +29,8 @@ window.stopInventoryAuto = true;
 
 This script is specifically designed to process inventory items marked as **mismatched**, the counted quantity does not match the expected quantity, which may have occurred after an unexpected issue while running the previous automatic inventory count script.
 
+The mismatches may have resulted from timing, page state updates, or interrupted submissions during browser automation.
+
 ## Features
 
 - Detects inventory rows marked with the mismatch icon
