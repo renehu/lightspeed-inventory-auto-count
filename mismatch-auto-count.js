@@ -1,11 +1,13 @@
 /*
  * Lightspeed Inventory Mismatch Auto Count
  *
+ * It only processes rows marked as mismatched.
+ *
  * This script is intended to reconcile mismatched items that may have
  * occurred after an unexpected issue while running the previous
  * automatic inventory count script.
  *
- * It only processes rows marked as mismatched.
+ * The mismatches may have resulted from timing, page state updates, or interrupted submissions during browser automation.
  */
 
 (async () => {
