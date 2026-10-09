@@ -18,7 +18,8 @@ A browser console script for automating inventory counting in Lightspeed Retail.
 4. Review the screen models that **arrived this week** and physically check how many of each model are currently left in stock.
 5. Check for any **negative stock quantities** and record how many items have a negative quantity.
 6. These 2-4 steps above must be counted manually.
-   Now we can use scripts to run automatically. 
+   Now we can use scripts to run automatically.
+   **Scroll all the way to the bottom** first so that all inventory rows are fully loaded. 
    Switch to the **Uncounted** tab before starting.
 7. Open Chrome DevTools and go to the Console. Paste the contents of `lightspeed-inventory-auto-count.js`.
 8. Press Enter.
