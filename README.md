@@ -1,3 +1,6 @@
+
+  <img width="1894" height="831" alt="auto-count-result-1" src="https://github.com/user-attachments/assets/ba9f8d51-a8b7-48da-a1d4-a8a8c4030101" />
+
 # inventory-auto-count
 
 A browser console script for automating inventory counting in Lightspeed Retail.
@@ -9,6 +12,8 @@ A browser console script for automating inventory counting in Lightspeed Retail.
 - Fills the Quantity field
 - Clicks Count automatically
 - Continues until all uncounted items are processed
+
+
 
 ## Usage
 
