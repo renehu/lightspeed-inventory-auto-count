@@ -24,7 +24,7 @@ A browser console script for automating inventory counting in Lightspeed Retail.
 5. These 2-4 steps above must be counted manually.
    Now we can use scripts to run automatically.
 6. Switch to the **Uncounted** tab before starting.
-7. **Scroll** all the way **to the bottom** so that all inventory rows are fully loaded.
+7. **Scroll** all the way **to the bottom** so that all inventory rows are **fully loaded**.
 8. Open Chrome DevTools and go to the Console. Paste the contents of `lightspeed-inventory-auto-count.js`.
 9. Press Enter.
 
